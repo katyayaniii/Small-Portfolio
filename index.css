@@ -1,7 +1,7 @@
-/* 🔥 Google Material Symbols */
+/* Google Material Symbols */
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 
-/* 🔥 Body Setup */
+/* Body Setup */
 body {
   background: #111;
   font-family: Arial, sans-serif;
@@ -12,14 +12,14 @@ body {
   margin: 0;
 }
 
-/* 🔥 Card Container */
+/* Card Container */
 .card {
   width: 300px;
   height: 400px;
   perspective: 1000px;
 }
 
-/* 🔥 THIS IS IMPORTANT FIX */
+/* THIS IS IMPORTANT FIX */
 .card .front,
 .card .back {
   width: 100%;
@@ -45,7 +45,7 @@ body {
   box-sizing: border-box;
 }
 
-/* 🔥 Front Face */
+/* Front Face */
 .front img {
   width: 100px;
   height: 100px;
@@ -63,13 +63,13 @@ body {
   text-align: center;
 }
 
-/* 🔥 Back Face */
+/* Back Face */
 .back {
   transform: rotateY(180deg);
   background: #333;
 }
 
-/* 🔥 FIXED FLIP */
+/* FIXED FLIP */
 .card:hover .front {
   transform: rotateY(180deg);
 }
@@ -78,7 +78,7 @@ body {
   transform: rotateY(0deg);
 }
 
-/* 🔥 List */
+/*List */
 .back ul {
   list-style: none;
   padding: 0;
@@ -99,7 +99,7 @@ body {
   color: hotpink;
 }
 
-/* 🔥 Icons */
+/* Icons */
 .material-symbols-outlined {
   color: cyan;
   font-size: 22px;
@@ -111,9 +111,10 @@ body {
   transform: scale(1.2);
 }
 
-/* 🔥 Social */
+/*Social */
 .socials {
   margin-top: 20px;
   display: flex;
   gap: 15px;
 }
+
